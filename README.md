@@ -2,6 +2,8 @@
 
 一个使用 [Firefly](https://github.com/CuteLeaf/Firefly)（基于 [Fuwari](https://github.com/saicaca/fuwari)）主题搭建的 Astro 游戏攻略博客，部署在 Cloudflare Pages：[game-walkthrough.pages.dev](https://game-walkthrough.pages.dev)。
 
+日常写作、发布、修改主题和排错的完整说明见 [博客维护指南](docs/blog-maintenance.md)。
+
 ## 本地开发
 
 需要 Node.js >= 22.23.0 和 pnpm 11.22.0（已写入 `package.json` 的 `packageManager` 字段）。
