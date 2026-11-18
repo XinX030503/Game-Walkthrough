@@ -79,10 +79,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"流程攻略 · 支线任务",
-				"角色培养 · 职业搭配",
-				"装备收集 · 隐藏要素",
-				"BOSS 战法 · 通关技巧",
+				"Persona",
+				"JRPG",
+				"白金攻略",
+				"AVG",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

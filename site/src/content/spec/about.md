@@ -1,16 +1,14 @@
 # 关于本站
 
-这里是「Chacha的印象空间」，记录和整理游戏流程、支线任务、角色培养、装备收集与 BOSS 战资料。
-
-目前主要更新《八方旅人 II》相关内容，后续会逐步扩展到更多游戏。
+这里是「Chacha的印象空间」，记录和整理游戏白金攻略。
 
 ## 关于我
 
-XinX，喜欢 RPG 和单机游戏。
+Chacha，单机党，喷喷苦手，喜欢 JRPG 和 AVG。欢迎扩列！
 
-- GitHub：[XinX030503](https://github.com/XinX030503)
-- 项目仓库：[Game-Walkthrough](https://github.com/XinX030503/Game-Walkthrough)
-- 订阅：[/rss/](/rss/)
+- Steam ID：353277538
+- Switch 好友码：SW-6737-0684-0302
+- PSN ID：XinX_030503
 
 ## 技术栈
 

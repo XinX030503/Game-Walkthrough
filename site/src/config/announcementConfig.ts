@@ -5,14 +5,14 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到 Chacha 的印象空间！这里整理流程攻略、支线任务、角色培养与 BOSS 战资料。",
+	content: "欢迎来到 Chacha 的印象空间！",
 
 	// 是否允许用户关闭公告
 	closable: true,
 
 	link: {
 		// 启用链接
-		enable: true,
+		enable: false,
 		// 链接文本
 		text: "了解更多",
 		// 链接 URL
