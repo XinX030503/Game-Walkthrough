@@ -1,0 +1,2114 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0e16">
+  <meta name="color-scheme" content="dark light">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="歧路旅人II攻略">
+  <meta name="description" content="《歧路旅人 II / 八方旅人2》PS5 未完成奖杯攻略：隐藏职业、30 张唱片、100 个地点、69 条支线、异界之门隐藏 BOSS 与最终章路线。">
+  <title>歧路旅人 II · 未完成奖杯攻略</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e16'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23e2b968' stroke-width='2'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia,serif' font-size='24' fill='%23e2b968'%3EII%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #0a0e16;
+      --bg-soft: #0e1420;
+      --panel: rgba(20, 28, 43, 0.82);
+      --panel-solid: #141c2b;
+      --panel-2: #19233a;
+      --text: #e8ecf5;
+      --muted: #98a3b8;
+      --faint: #6f7b91;
+      --line: rgba(255, 255, 255, 0.08);
+      --line-strong: rgba(255, 255, 255, 0.16);
+      --gold: #e2b968;
+      --gold-strong: #f4d58e;
+      --gold-soft: rgba(226, 185, 104, 0.12);
+      --teal: #63dbc3;
+      --teal-soft: rgba(99, 219, 195, 0.12);
+      --rose: #ff8097;
+      --rose-soft: rgba(255, 128, 151, 0.12);
+      --blue: #8ab0ff;
+      --blue-soft: rgba(138, 176, 255, 0.12);
+      --purple: #b79cff;
+      --purple-soft: rgba(183, 156, 255, 0.12);
+      --orange: #ffae6b;
+      --orange-soft: rgba(255, 174, 107, 0.12);
+      --silver: #c9d2e0;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+      --radius: 18px;
+      --radius-sm: 12px;
+      --maxw: 1120px;
+      --font-sans: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+      --font-serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, "Times New Roman", serif;
+    }
+
+    [data-theme="light"] {
+      --bg: #f5f1e8;
+      --bg-soft: #efe9dc;
+      --panel: rgba(255, 255, 255, 0.82);
+      --panel-solid: #fffdf8;
+      --panel-2: #f4efe3;
+      --text: #1d2430;
+      --muted: #5c6675;
+      --faint: #7d8796;
+      --line: rgba(29, 36, 48, 0.10);
+      --line-strong: rgba(29, 36, 48, 0.20);
+      --gold: #a9741f;
+      --gold-strong: #8a5a12;
+      --gold-soft: rgba(169, 116, 31, 0.10);
+      --teal: #0f7f6b;
+      --teal-soft: rgba(15, 127, 107, 0.10);
+      --rose: #b3314a;
+      --rose-soft: rgba(179, 49, 74, 0.10);
+      --blue: #3b64b8;
+      --blue-soft: rgba(59, 100, 184, 0.10);
+      --purple: #6d4fc4;
+      --purple-soft: rgba(109, 79, 196, 0.10);
+      --orange: #b86118;
+      --orange-soft: rgba(184, 97, 24, 0.10);
+      --silver: #59657a;
+      --shadow: 0 18px 40px rgba(60, 45, 20, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 800px at 88% -10%, rgba(226, 185, 104, 0.12), transparent 60%),
+        radial-gradient(900px 700px at -12% 18%, rgba(99, 219, 195, 0.08), transparent 55%),
+        var(--bg);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    [data-theme="light"] body {
+      background:
+        radial-gradient(1200px 800px at 88% -10%, rgba(169, 116, 31, 0.12), transparent 60%),
+        radial-gradient(900px 700px at -12% 18%, rgba(15, 127, 107, 0.08), transparent 55%),
+        var(--bg);
+    }
+    ::selection { background: var(--gold); color: #0a0e16; }
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 999px; }
+    a { color: var(--gold-strong); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button, input { font: inherit; }
+    :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .skip-link {
+      position: absolute; left: 12px; top: -60px; z-index: 100;
+      padding: 10px 14px; border-radius: 10px; background: var(--gold); color: #0a0e16;
+      font-weight: 700; transition: top .2s;
+    }
+    .skip-link:focus { top: 12px; }
+
+    /* Header */
+    .site-header { position: relative; z-index: 30; padding: 20px 0 14px; }
+    .header-inner {
+      max-width: var(--maxw); margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .logo {
+      width: 46px; height: 46px; border-radius: 14px; flex: 0 0 auto;
+      display: grid; place-items: center; color: #0a0e16;
+      background: linear-gradient(145deg, var(--gold-strong), var(--gold));
+      box-shadow: 0 8px 24px rgba(226, 185, 104, 0.25);
+    }
+    .logo svg { width: 28px; height: 28px; }
+    .brand h1 {
+      margin: 0; font-family: var(--font-serif); font-size: 19px;
+      letter-spacing: .02em; line-height: 1.25;
+    }
+    .brand p { margin: 2px 0 0; color: var(--muted); font-size: 12px; letter-spacing: .02em; }
+    .header-progress { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .ring-wrap { position: relative; width: 52px; height: 52px; }
+    .ring-wrap svg { width: 52px; height: 52px; transform: rotate(-90deg); }
+    .ring-track { fill: none; stroke: var(--line-strong); stroke-width: 4; }
+    .ring-fill { fill: none; stroke: var(--gold); stroke-width: 4; stroke-linecap: round; transition: stroke-dashoffset .45s ease; }
+    .ring-text {
+      position: absolute; inset: 0; display: grid; place-items: center;
+      font-size: 11px; font-weight: 700; color: var(--text);
+    }
+    .header-progress .meta { display: flex; flex-direction: column; gap: 2px; }
+    .header-progress .meta strong { font-size: 12px; }
+    .header-progress .meta span { color: var(--muted); font-size: 10.5px; }
+    .icon-btn {
+      width: 38px; height: 38px; border-radius: 12px; border: 1px solid var(--line);
+      background: var(--panel); color: var(--text); cursor: pointer;
+      display: grid; place-items: center; transition: border-color .2s, background .2s;
+    }
+    .icon-btn:hover { border-color: var(--line-strong); background: var(--panel-2); }
+    .icon-btn svg { width: 18px; height: 18px; }
+
+    /* Nav */
+    .site-nav {
+      position: sticky; top: 0; z-index: 40;
+      background: rgba(10, 14, 22, 0.82);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    }
+    [data-theme="light"] .site-nav { background: rgba(245, 241, 232, 0.86); }
+    .nav-inner {
+      max-width: var(--maxw); margin: 0 auto; padding: 0 16px;
+      display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+    }
+    .nav-inner::-webkit-scrollbar { display: none; }
+    .site-nav a {
+      flex: 0 0 auto; padding: 12px 11px; color: var(--muted);
+      font-size: 12.5px; font-weight: 600; white-space: nowrap;
+      border-bottom: 2px solid transparent; transition: color .2s, border-color .2s;
+    }
+    .site-nav a:hover { color: var(--text); text-decoration: none; }
+    .site-nav a.active { color: var(--gold-strong); border-bottom-color: var(--gold); }
+
+    /* Hero */
+    .hero {
+      max-width: var(--maxw); margin: 0 auto; padding: 54px 24px 12px;
+    }
+    .hero-grid { display: grid; grid-template-columns: 1.35fr .85fr; gap: 28px; align-items: start; }
+    .eyebrow {
+      color: var(--gold); font-size: 11.5px; font-weight: 700;
+      letter-spacing: .18em; text-transform: uppercase;
+    }
+    .hero h1 {
+      margin: 12px 0 0; font-family: var(--font-serif);
+      font-size: clamp(36px, 5.4vw, 58px); line-height: 1.06;
+      letter-spacing: -.02em; font-weight: 700;
+    }
+    .hero h1 span { color: var(--gold-strong); }
+    .hero .lead {
+      margin: 18px 0 0; color: var(--muted); font-size: 15.5px;
+      line-height: 1.85; max-width: 62ch;
+    }
+    .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+    .stat {
+      padding: 8px 13px; border: 1px solid var(--line); border-radius: 999px;
+      background: var(--panel); color: var(--muted); font-size: 12.5px;
+    }
+    .stat strong { color: var(--text); font-size: 13px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line-strong);
+      color: var(--text); background: var(--panel); cursor: pointer;
+      font-size: 13px; font-weight: 700; transition: transform .15s, background .2s, border-color .2s;
+    }
+    .btn:hover { text-decoration: none; border-color: var(--gold); transform: translateY(-1px); }
+    .btn.primary { background: linear-gradient(145deg, var(--gold-strong), var(--gold)); color: #0a0e16; border-color: transparent; }
+    .btn.ghost { background: transparent; }
+    .btn.small { padding: 8px 12px; font-size: 12px; }
+
+    /* Progress card */
+    .progress-card {
+      padding: 20px; border-radius: var(--radius); border: 1px solid var(--line);
+      background: linear-gradient(160deg, var(--panel), var(--panel-2));
+      box-shadow: var(--shadow);
+    }
+    .progress-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
+    .progress-big {
+      font-family: var(--font-serif); font-size: 34px; font-weight: 700; line-height: 1;
+    }
+    .progress-big small { font-family: var(--font-sans); font-size: 13px; color: var(--muted); font-weight: 500; }
+    .progress-sub { color: var(--muted); font-size: 11.5px; }
+    .progress-bar {
+      height: 8px; margin-top: 12px; border-radius: 999px;
+      background: var(--line); overflow: hidden;
+    }
+    .progress-bar > i {
+      display: block; height: 100%; width: 0; border-radius: 999px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width .4s ease;
+    }
+    .progress-block + .progress-block { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .progress-note { margin-top: 16px; color: var(--faint); font-size: 11px; line-height: 1.6; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line-strong);
+      color: var(--muted); background: var(--panel); font-size: 11px; line-height: 1.4;
+      white-space: nowrap;
+    }
+    .chip.star { color: var(--gold-strong); border-color: rgba(226, 185, 104, .38); background: var(--gold-soft); }
+    .chip.gate { color: var(--rose); border-color: rgba(255, 128, 151, .38); background: var(--rose-soft); }
+    .chip.done { color: var(--teal); border-color: rgba(99, 219, 195, .35); background: var(--teal-soft); }
+
+    /* Callouts */
+    .callout {
+      display: flex; gap: 12px; align-items: flex-start;
+      padding: 15px 17px; border-radius: var(--radius-sm);
+      border: 1px solid var(--line-strong); background: var(--panel);
+      color: var(--muted); font-size: 13.5px; line-height: 1.75;
+    }
+    .callout .icon { flex: 0 0 auto; width: 20px; height: 20px; margin-top: 2px; color: currentColor; }
+    .callout strong { color: var(--text); }
+    .callout.danger { border-color: rgba(255, 128, 151, .38); background: var(--rose-soft); color: var(--text); }
+    .callout.danger .icon { color: var(--rose); }
+    .callout.info { border-color: rgba(99, 219, 195, .30); background: var(--teal-soft); }
+    .callout.info .icon { color: var(--teal); }
+    .callout.gold { border-color: rgba(226, 185, 104, .34); background: var(--gold-soft); }
+    .callout.gold .icon { color: var(--gold); }
+
+    /* Roadmap */
+    .roadmap-wrap { margin-top: 34px; }
+    .subhead-row {
+      display: flex; align-items: baseline; justify-content: space-between;
+      gap: 14px; margin: 0 0 12px; flex-wrap: wrap;
+    }
+    .subhead {
+      margin: 0; font-family: var(--font-serif); font-size: 22px;
+      letter-spacing: -.01em;
+    }
+    .hint { color: var(--faint); font-size: 11.5px; }
+    .roadmap { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; }
+    .step {
+      position: relative; display: block; padding: 13px 12px 12px;
+      border: 1px solid var(--line); border-radius: 14px;
+      background: var(--panel); color: var(--text);
+      transition: transform .15s, border-color .2s, background .2s;
+    }
+    .step:hover { text-decoration: none; transform: translateY(-2px); border-color: var(--gold); background: var(--panel-2); }
+    .step .num {
+      font-family: var(--font-serif); font-size: 20px; color: var(--gold);
+      line-height: 1;
+    }
+    .step strong { display: block; margin-top: 7px; font-size: 12.5px; }
+    .step span:last-child { display: block; margin-top: 3px; color: var(--muted); font-size: 10.5px; line-height: 1.5; }
+
+    /* Search */
+    .search-panel {
+      position: relative; margin-top: 32px; padding: 15px;
+      border: 1px solid var(--line); border-radius: var(--radius);
+      background: var(--panel);
+    }
+    .search-row { position: relative; display: flex; align-items: center; }
+    .search-icon {
+      position: absolute; left: 14px; width: 18px; height: 18px;
+      color: var(--faint); pointer-events: none;
+    }
+    .search-input {
+      width: 100%; padding: 13px 14px 13px 43px;
+      color: var(--text); background: var(--bg-soft);
+      border: 1px solid var(--line-strong); border-radius: var(--radius-sm);
+      font-size: 14.5px; outline: none;
+    }
+    .search-input::placeholder { color: var(--faint); }
+    .search-input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px var(--gold-soft); }
+    .search-hint { margin-top: 9px; color: var(--faint); font-size: 11.5px; }
+    .search-results {
+      display: none; margin-top: 10px; max-height: 380px; overflow: auto;
+      border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--panel-solid); box-shadow: var(--shadow);
+    }
+    .search-results.open { display: block; }
+    .result {
+      display: flex; gap: 10px; align-items: flex-start; width: 100%;
+      padding: 10px 12px; border: 0; border-bottom: 1px solid var(--line);
+      background: transparent; color: var(--text); text-align: left; cursor: pointer;
+    }
+    .result:last-child { border-bottom: 0; }
+    .result:hover { background: var(--panel-2); }
+    .result-body { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+    .result-title { font-size: 13px; font-weight: 600; }
+    .result-detail { color: var(--muted); font-size: 11.5px; line-height: 1.45; }
+    .empty { padding: 18px; color: var(--muted); font-size: 13px; text-align: center; }
+
+    /* Badges */
+    .badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 7px; border-radius: 999px; border: 1px solid var(--line-strong);
+      color: var(--muted); font-size: 10.5px; font-weight: 700;
+      line-height: 1.5; white-space: nowrap;
+    }
+    .badge-platinum { color: #dfe8ff; border-color: rgba(223, 232, 255, .40); background: rgba(223, 232, 255, .10); }
+    .badge-gold { color: var(--gold-strong); border-color: rgba(226, 185, 104, .40); background: var(--gold-soft); }
+    .badge-silver { color: var(--silver); border-color: rgba(201, 210, 224, .35); background: rgba(201, 210, 224, .10); }
+    .badge-bronze { color: #d99a6b; border-color: rgba(217, 154, 107, .40); background: rgba(217, 154, 107, .10); }
+    .badge-quest { color: var(--teal); border-color: rgba(99, 219, 195, .35); background: var(--teal-soft); }
+    .badge-record { color: var(--gold-strong); border-color: rgba(226, 185, 104, .40); background: var(--gold-soft); }
+    .badge-map { color: var(--blue); border-color: rgba(138, 176, 255, .35); background: var(--blue-soft); }
+    .badge-job { color: var(--purple); border-color: rgba(183, 156, 255, .35); background: var(--purple-soft); }
+    .badge-weapon { color: var(--rose); border-color: rgba(255, 128, 151, .35); background: var(--rose-soft); }
+    .badge-flame { color: var(--orange); border-color: rgba(255, 174, 107, .35); background: var(--orange-soft); }
+    .badge-trophy { color: var(--silver); border-color: rgba(201, 210, 224, .35); background: rgba(201, 210, 224, .10); }
+
+    /* Trophy grid */
+    .trophy-section { margin-top: 34px; }
+    .trophy-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .trophy-card {
+      display: flex; align-items: flex-start; gap: 11px;
+      padding: 14px; border: 1px solid var(--line); border-radius: 14px;
+      background: var(--panel); cursor: pointer;
+      transition: border-color .2s, background .2s, opacity .2s;
+      scroll-margin-top: 78px;
+    }
+    .trophy-card:hover { border-color: var(--line-strong); background: var(--panel-2); }
+    .trophy-card.done { opacity: .58; border-color: rgba(99, 219, 195, .30); }
+    .type-dot { width: 9px; height: 9px; border-radius: 50%; margin-top: 7px; flex: 0 0 auto; }
+    .type-platinum { background: #e8eefc; box-shadow: 0 0 10px rgba(232, 238, 252, .65); }
+    .type-gold { background: var(--gold); box-shadow: 0 0 10px rgba(226, 185, 104, .45); }
+    .type-silver { background: var(--silver); }
+    .type-bronze { background: #d99a6b; }
+    .trophy-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+    .trophy-top { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+    .trophy-name { font-size: 13.5px; font-weight: 700; }
+    .trophy-cond { color: var(--muted); font-size: 12px; line-height: 1.5; }
+    .trophy-meta { color: var(--faint); font-size: 10.5px; line-height: 1.5; }
+    .trophy-card input[type="checkbox"] { margin-top: 2px; }
+
+    /* Checkboxes */
+    input[type="checkbox"] {
+      appearance: none; -webkit-appearance: none;
+      width: 21px; height: 21px; flex: 0 0 auto; margin: 0;
+      border: 1.5px solid var(--line-strong); border-radius: 7px;
+      background: var(--bg-soft); cursor: pointer;
+      display: grid; place-items: center;
+      transition: background .15s, border-color .15s;
+    }
+    input[type="checkbox"]::after {
+      content: ""; width: 10px; height: 6px; margin-top: -2px;
+      border-left: 2px solid #0a0e16; border-bottom: 2px solid #0a0e16;
+      transform: rotate(-45deg) scale(0); transform-origin: center;
+      transition: transform .15s;
+    }
+    input[type="checkbox"]:checked { background: var(--gold); border-color: var(--gold-strong); }
+    input[type="checkbox"]:checked::after { transform: rotate(-45deg) scale(1); }
+    [data-theme="light"] input[type="checkbox"]::after { border-color: #fffdf8; }
+
+    /* Sections */
+    .section {
+      max-width: var(--maxw); margin: 0 auto; padding: 50px 24px;
+      border-top: 1px solid var(--line); scroll-margin-top: 64px;
+    }
+    .section-head { margin-bottom: 18px; }
+    .section h2 {
+      margin: 6px 0 0; font-family: var(--font-serif);
+      font-size: clamp(28px, 3.6vw, 40px); line-height: 1.15; letter-spacing: -.02em;
+    }
+    .section .lead {
+      margin: 12px 0 0; color: var(--muted); font-size: 14.5px;
+      line-height: 1.85; max-width: 78ch;
+    }
+    .section h3.subhead {
+      margin: 32px 0 12px; font-family: var(--font-serif);
+      font-size: 20px; letter-spacing: -.01em;
+    }
+    .section h3.subhead:first-of-type { margin-top: 24px; }
+    .section-progress {
+      display: flex; align-items: center; gap: 12px;
+      margin: 18px 0 6px; padding: 12px 14px;
+      border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--panel);
+    }
+    .section-progress .progress-bar { flex: 1; margin: 0; height: 7px; }
+    .section-progress .label { color: var(--muted); font-size: 11.5px; white-space: nowrap; }
+    .section-progress .label strong { color: var(--text); }
+
+    /* Grids */
+    .grid { display: grid; gap: 12px; }
+    .grid.two { grid-template-columns: repeat(2, 1fr); }
+    .grid.three { grid-template-columns: repeat(3, 1fr); }
+    .grid.four { grid-template-columns: repeat(4, 1fr); }
+    .card {
+      padding: 17px; border: 1px solid var(--line); border-radius: var(--radius);
+      background: var(--panel); scroll-margin-top: 78px;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 15.5px; line-height: 1.35; }
+    .card p, .card li { color: var(--muted); font-size: 12.5px; line-height: 1.75; }
+    .card ol, .card ul { margin: 8px 0 0; padding-left: 18px; }
+    .card ol li + li, .card ul li + li { margin-top: 5px; }
+    .card .loc { color: var(--gold-strong); font-size: 12px; margin: 0 0 8px; }
+    .card .note {
+      margin: 10px 0 0; padding-top: 9px; border-top: 1px dashed var(--line);
+      color: var(--faint); font-size: 11.5px;
+    }
+    .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .card-head .eyebrow { font-size: 10px; }
+    .mini-check {
+      display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto;
+      color: var(--muted); font-size: 11px; cursor: pointer; user-select: none;
+    }
+    .mini-check input[type="checkbox"] { width: 18px; height: 18px; border-radius: 5px; }
+    .mini-check input[type="checkbox"]::after { width: 8px; height: 5px; }
+
+    /* Check cards / items */
+    .check-card {
+      display: flex; gap: 11px; align-items: flex-start;
+      padding: 13px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--panel); cursor: pointer;
+      transition: border-color .2s, background .2s;
+      scroll-margin-top: 78px;
+    }
+    .check-card:hover { border-color: var(--line-strong); background: var(--panel-2); }
+    .check-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+    .check-title { font-size: 13px; font-weight: 700; }
+    .check-meta { color: var(--muted); font-size: 11.5px; line-height: 1.5; }
+    .check-note { color: var(--gold-strong); font-size: 11px; line-height: 1.5; }
+    input[type="checkbox"]:checked ~ .check-body .check-title,
+    input[type="checkbox"]:checked ~ .item-body .item-title { color: var(--faint); text-decoration: line-through; }
+
+    /* Details groups */
+    details.group {
+      margin-bottom: 10px; border: 1px solid var(--line); border-radius: var(--radius);
+      background: var(--panel); overflow: hidden;
+    }
+    details.group > summary {
+      display: flex; align-items: center; gap: 10px;
+      padding: 13px 16px; cursor: pointer; list-style: none;
+      user-select: none;
+    }
+    details.group > summary::-webkit-details-marker { display: none; }
+    details.group > summary:hover { background: var(--panel-2); }
+    .arrow {
+      display: inline-block; color: var(--gold); font-size: 12px;
+      transition: transform .2s; transform-origin: center;
+    }
+    details[open] > summary .arrow { transform: rotate(90deg); }
+    .group-title { font-size: 13.5px; font-weight: 700; }
+    .group-title .muted { color: var(--muted); font-weight: 500; }
+    .count { margin-left: auto; color: var(--faint); font-size: 11px; white-space: nowrap; }
+    .group-body { padding: 0 8px 10px; }
+    .check-item {
+      display: flex; gap: 11px; align-items: flex-start;
+      padding: 9px 10px; border: 1px solid transparent; border-radius: 10px;
+      cursor: pointer; scroll-margin-top: 78px;
+      transition: background .15s, border-color .15s;
+    }
+    .check-item:hover { background: var(--panel-2); border-color: var(--line); }
+    .item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+    .item-title { font-size: 12.8px; line-height: 1.55; }
+    .item-title .num {
+      display: inline-block; min-width: 2.8em; color: var(--gold);
+      font-family: var(--font-serif); font-size: 12px;
+    }
+    .item-meta { color: var(--muted); font-size: 11.5px; line-height: 1.55; }
+    .check-item .chip { margin-top: 4px; align-self: flex-start; }
+
+    .list-tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 10px; }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto; border: 1px solid var(--line);
+      border-radius: var(--radius); background: var(--panel);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 660px; }
+    th, td {
+      padding: 11px 13px; text-align: left; vertical-align: top;
+      border-bottom: 1px solid var(--line); font-size: 12.5px;
+    }
+    th { color: var(--muted); font-weight: 700; background: var(--panel-2); white-space: nowrap; }
+    td { color: var(--muted); }
+    td strong { color: var(--text); }
+    tr:last-child td { border-bottom: 0; }
+    tr { scroll-margin-top: 78px; }
+
+    /* Chains / link cards */
+    .chain {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+      margin: 16px 0 18px;
+    }
+    .chain .node {
+      padding: 8px 12px; border-radius: 999px;
+      border: 1px solid var(--line-strong); background: var(--panel);
+      color: var(--text); font-size: 12px; font-weight: 700;
+    }
+    .chain .node.gate { border-color: rgba(255, 128, 151, .4); background: var(--rose-soft); color: var(--rose); }
+    .chain .arrow-line { color: var(--gold); font-size: 14px; }
+
+    .link-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+    .link-card {
+      display: flex; flex-direction: column; gap: 3px;
+      padding: 13px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--panel); color: var(--text);
+      transition: border-color .2s, background .2s, transform .15s;
+    }
+    .link-card:hover { text-decoration: none; border-color: var(--gold); background: var(--panel-2); transform: translateY(-1px); }
+    .link-card strong { font-size: 12.5px; }
+    .link-card span { color: var(--muted); font-size: 11px; line-height: 1.5; }
+
+    /* Boss phases */
+    .phase-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 14px; }
+    .phase {
+      padding: 17px; border: 1px solid var(--line); border-radius: var(--radius);
+      background: var(--panel);
+    }
+    .phase .phase-tag { color: var(--rose); font-size: 10.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    .phase h3 { margin: 5px 0 8px; font-size: 17px; }
+    .phase ul { margin: 0; padding-left: 17px; }
+    .phase li { color: var(--muted); font-size: 12.5px; line-height: 1.75; }
+    .phase li + li { margin-top: 4px; }
+    .phase li strong { color: var(--text); }
+
+    .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 10px; }
+    .stat-cell {
+      padding: 9px 10px; border: 1px solid var(--line); border-radius: 10px;
+      background: var(--bg-soft);
+    }
+    .stat-cell span { display: block; color: var(--faint); font-size: 10px; }
+    .stat-cell strong { display: block; margin-top: 1px; font-size: 12.5px; }
+
+    /* Video links */
+    .video-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .video-links a {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 8px 12px; border-radius: 10px; border: 1px solid var(--line-strong);
+      background: var(--panel); color: var(--text); font-size: 12px;
+    }
+    .video-links a:hover { border-color: var(--gold); text-decoration: none; }
+
+    /* Sources */
+    .sources { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .sources li {
+      padding: 11px 13px; border: 1px solid var(--line); border-radius: var(--radius-sm);
+      background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.6;
+    }
+    .sources a { color: var(--gold-strong); }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--line); margin-top: 10px;
+      padding: 26px 24px 34px; color: var(--faint); font-size: 11.5px;
+    }
+    .footer-inner {
+      max-width: var(--maxw); margin: 0 auto;
+      display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap;
+    }
+    .footer-inner strong { color: var(--muted); }
+
+    /* Floating / toast */
+    #toTop {
+      position: fixed; right: 16px; bottom: 16px; z-index: 60;
+      width: 44px; height: 44px; border-radius: 50%;
+      display: none; place-items: center;
+      border: 1px solid var(--line-strong); background: var(--panel-solid);
+      color: var(--text); cursor: pointer; box-shadow: var(--shadow);
+    }
+    #toTop.show { display: grid; }
+    #toTop svg { width: 18px; height: 18px; }
+    #toast {
+      position: fixed; left: 50%; bottom: 24px; z-index: 80;
+      transform: translateX(-50%) translateY(18px);
+      padding: 10px 16px; border-radius: 999px;
+      background: var(--panel-solid); border: 1px solid var(--line-strong);
+      color: var(--text); font-size: 12px; box-shadow: var(--shadow);
+      opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
+    }
+    #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* Flash highlight */
+    @keyframes flashRing {
+      0% { box-shadow: 0 0 0 3px var(--gold); background: var(--gold-soft); }
+      100% { box-shadow: 0 0 0 0 transparent; background: transparent; }
+    }
+    .flash { animation: flashRing 1.8s ease; }
+    tr.flash td { background: var(--gold-soft); }
+
+    @media (max-width: 980px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .roadmap { grid-template-columns: repeat(4, 1fr); }
+      .grid.four { grid-template-columns: repeat(2, 1fr); }
+      .grid.three { grid-template-columns: repeat(2, 1fr); }
+      .link-cards { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 720px) {
+      body { font-size: 14.5px; }
+      .header-inner { padding: 0 16px; }
+      .brand h1 { font-size: 17px; }
+      .brand p { font-size: 10.5px; }
+      .header-progress .meta { display: none; }
+      .hero { padding: 38px 16px 8px; }
+      .hero h1 { font-size: clamp(34px, 10vw, 46px); }
+      .hero .lead { font-size: 14px; }
+      .section { padding: 40px 16px; }
+      .roadmap { grid-template-columns: repeat(2, 1fr); }
+      .trophy-grid { grid-template-columns: 1fr; }
+      .grid.two, .grid.three, .grid.four { grid-template-columns: 1fr; }
+      .link-cards { grid-template-columns: 1fr; }
+      .phase-grid { grid-template-columns: 1fr; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .sources { grid-template-columns: 1fr; }
+      .section-progress { flex-wrap: wrap; }
+      .section-progress .label { width: 100%; }
+      .search-results { max-height: 420px; }
+      .search-input { font-size: 16px; }
+      .header-progress { gap: 6px; }
+      .ring-wrap, .ring-wrap svg { width: 44px; height: 44px; }
+      .icon-btn { width: 36px; height: 36px; }
+      .site-nav a { padding: 11px 9px; font-size: 12px; }
+      .trophy-card { padding: 12px; }
+      .check-item { padding: 8px 8px; }
+      .item-title .num { min-width: 2.6em; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+
+    @media print {
+      body { background: #fff; color: #111; }
+      .site-header, .site-nav, .search-panel, #toTop, .icon-btn, .hero-actions, .list-tools, .section-progress .progress-bar { display: none !important; }
+      .section, .hero { max-width: none; padding: 16px 0; border-color: #ddd; }
+      .card, .check-card, details.group, .trophy-card, .callout, .phase, .link-card, .sources li { background: #fff; border-color: #ddd; }
+      .hero h1, .section h2 { color: #111; }
+      .lead, .card p, .card li, .item-meta, .check-meta, .trophy-cond, .trophy-meta { color: #444; }
+      a { color: #111; text-decoration: underline; }
+      .trophy-card.done { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="10.5" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M16 4.5v3.6M16 23.9v3.6M4.5 16h3.6M23.9 16h3.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M19.8 12.2l-2.1 5.5-5.5 2.1 2.1-5.5 5.5-2.1z" fill="currentColor"/>
+        </svg>
+      </span>
+      <div class="brand">
+        <h1>歧路旅人 II · 奖杯攻略</h1>
+        <p>PSN xinx_030503 · PS5 · 25/33</p>
+      </div>
+      <div class="header-progress">
+        <div class="ring-wrap" aria-hidden="true">
+          <svg viewBox="0 0 52 52">
+            <circle class="ring-track" cx="26" cy="26" r="21"></circle>
+            <circle class="ring-fill" id="ring-fill" cx="26" cy="26" r="21"></circle>
+          </svg>
+          <span class="ring-text" id="ring-text">0/8</span>
+        </div>
+        <div class="meta">
+          <strong>攻略进度</strong>
+          <span>8 个剩余奖杯</span>
+        </div>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换主题"></button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="章节导航">
+    <div class="nav-inner">
+      <a href="#overview" class="active">总览</a>
+      <a href="#jobs">职业博通</a>
+      <a href="#records">唱片收藏家</a>
+      <a href="#map">索里苏提亚大师</a>
+      <a href="#sidequests">不虚此行</a>
+      <a href="#gate">异界之门</a>
+      <a href="#finale">旭日东升</a>
+      <a href="#platinum">白金</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="overview">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Octopath Traveler II · PS5</div>
+          <h1>未完成奖杯<br><span>攻略</span></h1>
+          <p class="lead">
+            为 PSN 账号 <strong>xinx_030503</strong> 整理的 8 个剩余奖杯路线：
+            隐藏职业、30 张唱片、100 个地点、69 条支线、隐藏 BOSS 与最终章。
+            支持搜索、勾选进度，手机上也能直接查。
+          </p>
+          <div class="stats">
+            <span class="stat"><strong>8</strong> 剩余奖杯</span>
+            <span class="stat"><strong>25/33</strong> 当前进度</span>
+            <span class="stat"><strong>30</strong> 张唱片</span>
+            <span class="stat"><strong>69</strong> 条支线</span>
+            <span class="stat"><strong>100</strong> 个地点</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn primary" href="#sidequests">查看支线清单</a>
+            <a class="btn ghost" href="#jobs">从隐藏职业开始</a>
+          </div>
+        </div>
+
+        <aside class="progress-card" aria-label="进度概览">
+          <div class="progress-block">
+            <div class="progress-head">
+              <div>
+                <div class="progress-big">25<small>/33</small></div>
+                <div class="progress-sub">PSN 当前进度 · 75.8%</div>
+              </div>
+              <div class="chips" style="margin:0;justify-content:flex-end">
+                <span class="chip">1 白金</span>
+                <span class="chip">3 金</span>
+                <span class="chip">4 银</span>
+              </div>
+            </div>
+            <div class="progress-bar"><i style="width:75.8%"></i></div>
+          </div>
+          <div class="progress-block">
+            <div class="progress-head">
+              <div>
+                <div class="progress-big" id="overall-percent">0%</div>
+                <div class="progress-sub">本攻略清单总进度</div>
+              </div>
+              <div class="progress-sub" id="overall-text">0 / 0 项</div>
+            </div>
+            <div class="progress-bar"><i id="overall-fill"></i></div>
+          </div>
+          <p class="progress-note">
+            勾选状态只保存在当前浏览器（localStorage），刷新不会丢失；换设备需要重新勾选。
+          </p>
+        </aside>
+      </div>
+
+      <div class="callout danger" style="margin-top:28px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.2 21 20H3L12 3.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="17.2" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>最终章是不可逆节点。</strong>
+          开始最终章（调查南库罗普提尔森道营地的营火）后，支线任务无法继续推进，异界之门隐藏 BOSS 也无法挑战。
+          进最终章前请完成全部 69 条支线、30 张唱片、12 个职业和能走的地图，并单独存一个「最终章前」存档。
+          通关后不会生成通关存档，维达尼亚岛会消失，最终 BOSS 不能重复挑战。
+        </div>
+      </div>
+
+      <div class="roadmap-wrap">
+        <div class="subhead-row">
+          <h2 class="subhead">推荐顺序</h2>
+          <span class="hint">异界之门 → 不虚此行 会一起跳；歧路旅人 留到最后</span>
+        </div>
+        <div class="roadmap" id="roadmap"></div>
+      </div>
+
+      <div class="search-panel" role="search">
+        <div class="search-row">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.7"/>
+            <path d="m16 16 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <input
+            id="search-input"
+            class="search-input"
+            type="search"
+            placeholder="搜索支线、唱片、地点、职业…"
+            autocomplete="off"
+            aria-label="搜索攻略内容"
+            aria-controls="search-results"
+            aria-expanded="false"
+          >
+        </div>
+        <div class="search-hint">例如：石中剑 · 唱片 030 · 监狱岛 · 五重塔 · 海坊主</div>
+        <div class="search-results" id="search-results" role="list"></div>
+      </div>
+
+      <div class="trophy-section">
+        <div class="subhead-row">
+          <h2 class="subhead">剩余 8 个奖杯</h2>
+          <span class="hint">勾选后自动保存在本机</span>
+        </div>
+        <div class="trophy-grid" id="trophy-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="jobs">
+      <div class="section-head">
+        <div class="eyebrow">01 · Jobs</div>
+        <h2>职业博通 <span class="badge badge-silver">银</span></h2>
+        <p class="lead">
+          本作共有 <strong>12 个战斗职业 = 8 个基础职业 + 4 个隐藏职业</strong>。
+          先拿隐藏职业，后面打隐藏 BOSS 和最终章都会轻松很多。
+        </p>
+      </div>
+
+      <div class="section-progress">
+        <span class="label">职业进度 <strong data-progress-label="jobs">0 / 12</strong></span>
+        <div class="progress-bar" data-progress="jobs"><i></i></div>
+        <span class="label">生锈武器 <strong data-progress-label="weapons">0 / 6</strong></span>
+      </div>
+
+      <div class="callout info">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 10.5v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          社区反馈：<strong>8 个基础职业各拿第一张免费职业证，再解锁 4 个隐藏职业即可跳杯</strong>；
+          不需要把每个角色的 3 张职业证都拿满。若没跳杯，先检查是否有基础职业连第一张证都没拿。
+        </div>
+      </div>
+
+      <h3 class="subhead">八个基础职业公会</h3>
+      <div class="grid four" id="base-jobs"></div>
+
+      <h3 class="subhead">四个隐藏职业</h3>
+      <div class="grid two" id="hidden-jobs"></div>
+
+      <h3 class="subhead">六把生锈武器（武器大师）</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:52px">完成</th>
+              <th>生锈武器</th>
+              <th>锻造后</th>
+              <th>获取方式</th>
+            </tr>
+          </thead>
+          <tbody id="weapons-body"></tbody>
+        </table>
+      </div>
+      <p class="hint" style="margin-top:10px">
+        只拿「职业博通」的话，带一把生锈武器找退休锻造师即可解锁职业；6 把全交是为了技能和「寻求神器」任务奖励。
+      </p>
+    </section>
+
+    <section class="section" id="records">
+      <div class="section-head">
+        <div class="eyebrow">02 · Records</div>
+        <h2>唱片收藏家 <span class="badge badge-silver">银</span></h2>
+        <p class="lead">
+          共 <strong>30 张唱片</strong>。先完成支线 <strong>041「生意的味道 凛芬镇篇」</strong>
+          （凛芬镇，商人奥特里），解锁唱片机/唱片收集，并直接获得 001–003。
+        </p>
+      </div>
+      <div class="section-progress">
+        <span class="label">唱片进度 <strong data-progress-label="records">0 / 30</strong></span>
+        <div class="progress-bar" data-progress="records"><i></i></div>
+      </div>
+
+      <div class="callout gold">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.5 14.6 9l6 .9-4.3 4.2 1 6-5.3-2.8-5.3 2.8 1-6L3.4 9.9l6-.9L12 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <div>
+          <strong>两个易漏点：</strong>
+          029「吉尔的即兴演奏」需要完成舞娘篇，在布兰德兰多·新德尔斯塔·小道「吉尔的酒吧」购买；
+          030「朱曲 心中的灯火」需要完成光与爱格妮娅的双人任务，小夜在库国城前广场，
+          找不到时去<strong>库国外围城镇左上方的城墙</strong>。
+        </div>
+      </div>
+
+      <div class="list-tools">
+        <button class="btn small ghost" type="button" data-expand-all="records">全部展开</button>
+        <button class="btn small ghost" type="button" data-collapse-all="records">全部收起</button>
+      </div>
+      <div id="records-list"></div>
+    </section>
+
+    <section class="section" id="map">
+      <div class="section-head">
+        <div class="eyebrow">03 · Map</div>
+        <h2>索里苏提亚大师 <span class="badge badge-gold">金</span></h2>
+        <p class="lead">
+          共 <strong>100 个地点</strong>。游戏内没有明确的完成度百分比，PS5 奖杯进度会显示类似 98/100、99/100。
+          对照清单逐块走，重点检查下面这些容易漏掉的地点。
+        </p>
+      </div>
+      <div class="section-progress">
+        <span class="label">易漏地点清单 <strong data-progress-label="map">0 / 13</strong></span>
+        <div class="progress-bar" data-progress="map"><i></i></div>
+      </div>
+
+      <div class="grid two" id="map-list"></div>
+
+      <h3 class="subhead">完整地图对照</h3>
+      <div class="link-cards">
+        <a class="link-card" href="https://xyoss.g.com.cn/xy-production/cms3.0/2023/0301/20230301182413-9134-16919.jpg" target="_blank" rel="noopener noreferrer">
+          <strong>社区 100 地点对照图 →</strong>
+          <span>玩家整理的 100 个地点截图清单</span>
+        </a>
+        <a class="link-card" href="https://s1.ax1x.com/2023/03/02/ppFit0S.jpg" target="_blank" rel="noopener noreferrer">
+          <strong>玩家自制地点图 →</strong>
+          <span>另一个版本的地图对照</span>
+        </a>
+        <a class="link-card" href="https://docs.qq.com/sheet/DVVp1VWtFYnlaWmNF" target="_blank" rel="noopener noreferrer">
+          <strong>猎猫人老贾全收集文档 →</strong>
+          <span>含地图、宝箱、支线、探查等全收集表</span>
+        </a>
+      </div>
+
+      <div class="callout info" style="margin-top:16px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 10.5v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>维达尼亚岛（贝达尼亚岛）也计入 100 个地点。</strong>
+          它位于最终章流程中，所以「索里苏提亚大师」通常会在最终章自然补到 100/100。
+          最终章前先把其他地点全部走完，并保留最终章前的存档。
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sidequests">
+      <div class="section-head">
+        <div class="eyebrow">04 · Side Stories</div>
+        <h2>不虚此行 <span class="badge badge-silver">银</span></h2>
+        <p class="lead">
+          共 <strong>69 条支线（001–069）</strong>，包含隐藏支线 <strong>069「异界之门」</strong>。
+          完成 001–068 后击败异界之门 BOSS，<strong>「异界之门」和「不虚此行」会一起跳</strong>。
+        </p>
+      </div>
+
+      <div class="callout danger">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.2 21 20H3L12 3.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="17.2" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>必须在进入最终章前完成。</strong>
+          开始最终章后支线会锁死；如果遗漏，只能读取最终章前的存档补救。
+        </div>
+      </div>
+
+      <div class="section-progress">
+        <span class="label">支线进度 <strong data-progress-label="sidequests">0 / 69</strong></span>
+        <div class="progress-bar" data-progress="sidequests"><i></i></div>
+      </div>
+
+      <h3 class="subhead">异界之门支线链</h3>
+      <div class="chain">
+        <span class="node">001 旅行者阿尔的包</span>
+        <span class="arrow-line">→</span>
+        <span class="node">050 世界三大奇书</span>
+        <span class="arrow-line">→</span>
+        <span class="node">051 边狱之书</span>
+        <span class="arrow-line">→</span>
+        <span class="node gate">069 异界之门</span>
+      </div>
+      <p class="hint" style="margin-top:-6px">
+        多份攻略把 001、050、051 并列为开门条件；其中 069 的直接前置是 051。为保险起见，把 001 也完成。
+      </p>
+
+      <div class="list-tools">
+        <button class="btn small ghost" type="button" data-expand-all="sidequests">全部展开</button>
+        <button class="btn small ghost" type="button" data-collapse-all="sidequests">全部收起</button>
+      </div>
+      <div id="sidequests-list"></div>
+
+      <div class="callout info" style="margin-top:16px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 10.5v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>找不到支线 NPC？</strong>
+          先检查队伍中是否有角色用地图指令带走/跟随了他（引导、唆使、偷袭等）。解除跟随或换人后再回来。
+          支线列表在菜单的「支线故事」里，可对照上面的 69 条清单逐项勾掉。
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gate">
+      <div class="section-head">
+        <div class="eyebrow">05 · Hidden Boss</div>
+        <h2>异界之门 <span class="badge badge-silver">银</span></h2>
+        <p class="lead">
+          本作真正的隐藏 BOSS，难度高于最终章 BOSS。建议放在最后打，但必须在进入最终章之前。
+        </p>
+      </div>
+
+      <div class="callout danger">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.2 21 20H3L12 3.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="17.2" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>进入最终章后，这扇门就再也打不开了。</strong>
+          建议在点圣火前保存独立存档，并先完成 069。
+        </div>
+      </div>
+
+      <h3 class="subhead">解锁步骤</h3>
+      <div class="grid four">
+        <article class="card">
+          <div class="eyebrow">Step 1</div>
+          <h3>集齐 8 名旅人</h3>
+          <p>确保八名角色全部入队。你已拿到「八仙云集」，这部分没问题。</p>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Step 2</div>
+          <h3>完成阿尔支线</h3>
+          <p>完成 001「旅行者阿尔的包」→ 050「世界三大奇书」→ 051「边狱之书」。</p>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Step 3</div>
+          <h3>前往「？？？」</h3>
+          <p>到<strong>被分割的大海 东南侧</strong>的「？？？」小岛，大门会打开。需要船。</p>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Step 4</div>
+          <h3>击败隐藏 BOSS</h3>
+          <p>进门后前行，见到倒下的阿尔，进入两阶段隐藏 BOSS 战。胜利后获得饰品<strong>隔离缎带</strong>。</p>
+        </article>
+      </div>
+
+      <h3 class="subhead">BOSS 战：准备与阶段</h3>
+      <div class="callout info">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 10.5v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>推荐准备：</strong>主力输出约 Lv70，其他角色 Lv65+；全队 HP 5000+；准备两支完整队伍、满全体恢复药、复活药、BP/SP 恢复道具。
+          坚果优先喂给剑士和学者，保证能打出 99999 伤害。不要低等级硬打。
+        </div>
+      </div>
+
+      <div class="phase-grid">
+        <article class="phase">
+          <div class="phase-tag">Phase 1</div>
+          <h3>眼珠子</h3>
+          <div class="stat-grid">
+            <div class="stat-cell"><span>本体 HP</span><strong>600,000</strong></div>
+            <div class="stat-cell"><span>小怪</span><strong>3 × 60,000</strong></div>
+            <div class="stat-cell"><span>共通弱点</span><strong>斧 / 风</strong></div>
+            <div class="stat-cell"><span>机制</span><strong>反击 / 锁弱点</strong></div>
+          </div>
+          <ul>
+            <li>小怪被<strong>非弱点攻击会反击</strong>，尽量用全体攻击或弱点攻击清。</li>
+            <li>第二波小怪可能施放「回合倒计时诅咒」或<strong>全体锁弱点</strong>。</li>
+            <li>第三波小怪会被本体吃掉，给本体回 <strong>10 万 HP</strong>；有玩家建议让第二波被吃掉，避免长时间锁弱点。</li>
+            <li>推荐使用「降低群体双防」的道具，全队保持增益。</li>
+          </ul>
+        </article>
+        <article class="phase">
+          <div class="phase-tag">Phase 2</div>
+          <h3>魔神</h3>
+          <div class="stat-grid">
+            <div class="stat-cell"><span>本体 HP</span><strong>250,000</strong></div>
+            <div class="stat-cell"><span>小怪</span><strong>约 100,000</strong></div>
+            <div class="stat-cell"><span>机制</span><strong>沉默 / 恐惧 / 禁回</strong></div>
+            <div class="stat-cell"><span>强化</span><strong>4 次行动</strong></div>
+          </div>
+          <ul>
+            <li>伤害很高，会使用<strong>群体沉默、恐惧、禁回</strong>，还会清除增益和 BP。</li>
+            <li>小怪死亡后，本体变成 <strong>4 次行动</strong>，更狂暴。</li>
+            <li>小怪没及时清掉时，BOSS 第三回合可能上<strong>魔法反射</strong>；尽量在 3 回合内解决小怪并爆发。</li>
+            <li>有玩家提到后续还有「三阶段 16 盾四动」形态，务必留足资源和爆发。</li>
+          </ul>
+        </article>
+      </div>
+
+      <h3 class="subhead">常用打法</h3>
+      <div class="grid three">
+        <article class="card">
+          <h3>学者 + 神官</h3>
+          <p>属攻 999、满 BP 时，用「古代符咒 + 暴击镜 + 浑身解数 + 增幅加伤 + 属攻 up + 学者潜力 + 特大魔法」，配合神官奥义再动，在破防回合打出多次 99999×3。</p>
+        </article>
+        <article class="card">
+          <h3>剑士 + 武器大师</h3>
+          <p>二阶段不破防，靠剑士潜能再动 + 舞娘奥义全体化，用武器大师斧技清小怪，再用「狮子斩」爆发。</p>
+        </article>
+        <article class="card">
+          <h3>盗贼 + 武器大师</h3>
+          <p>堆速度，利用猫头鹰 debuff、潜力和奥义实现单回合三动；适合处理回合顺序。</p>
+        </article>
+        <article class="card">
+          <h3>药师调合</h3>
+          <p>属攻 999 时切换法杖，用「2 风伤 + 1 增强 + 1 扩散」清小怪；低血量时可以直接跪着进场。</p>
+        </article>
+        <article class="card">
+          <h3>商人佣兵</h3>
+          <p>5 万金币的佣兵既能输出也能回复；钱多可以买回合。适合作为稳定保底。</p>
+        </article>
+        <article class="card">
+          <h3>猎人召唤</h3>
+          <p>1.02 版有「6 次满星宝可梦」的良性 Bug（满增幅群体唆使 → 潜力爆发 → 解除潜力）。其他版本可能无效，不要依赖。</p>
+        </article>
+      </div>
+
+      <div class="video-links">
+        <a href="https://www.bilibili.com/video/BV1NM4y1C7WB/" target="_blank" rel="noopener noreferrer">稳定打法（含药师在商人前面的提醒）↗</a>
+        <a href="https://www.bilibili.com/video/BV1MM4y1H7od" target="_blank" rel="noopener noreferrer">快速击杀 ↗</a>
+        <a href="https://www.bilibili.com/video/BV1yD4y1u7jv" target="_blank" rel="noopener noreferrer">另一种队伍思路 ↗</a>
+      </div>
+
+      <div class="callout gold" style="margin-top:16px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.5 14.6 9l6 .9-4.3 4.2 1 6-5.3-2.8-5.3 2.8 1-6L3.4 9.9l6-.9L12 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <div>
+          如果打不过，优先检查：等级、全队 HP、是否带足恢复道具、输出是否能在破防回合打到 99999、以及是否在 BOSS 护盾/无敌状态解除前浪费了输出。
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="finale">
+      <div class="section-head">
+        <div class="eyebrow">06 · Final Chapter</div>
+        <h2>旭日东升 <span class="badge badge-gold">金</span></h2>
+        <p class="lead">
+          最终章「明日への旅路」的流程杯，击败最终 BOSS <strong>维德（伍迪）</strong>后获得。
+          需要完成 8 名角色的全部主线故事和 4 个双人故事。
+        </p>
+      </div>
+
+      <div class="grid two">
+        <article class="card">
+          <h3>前置：8 人主线</h3>
+          <p>完成八名角色的全部主线故事。</p>
+        </article>
+        <article class="card">
+          <h3>前置：4 个双人故事</h3>
+          <p>药师 × 猎人、学者 × 商人、神官 × 盗贼、舞娘 × 剑士。全部完成后最终章解锁。</p>
+        </article>
+      </div>
+
+      <div class="callout danger" style="margin-top:14px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.2 21 20H3L12 3.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="17.2" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>再提醒一次：</strong>开始最终章前，先把支线、异界之门、唱片、职业、地图上能去的地点全部完成，并单独存档。
+          开始最终章后时间固定为黑夜，部分支线和道具会暂时无法获取。
+        </div>
+      </div>
+
+      <h3 class="subhead">开始最终章</h3>
+      <div class="card">
+        <ol>
+          <li>前往 <strong>南库罗普提尔森道下方的营地</strong>，调查营火。</li>
+          <li>剧情之后没有明确引导：打开地图，会看到几个<strong>推荐等级 51</strong> 的副本，前往这些地点。</li>
+          <li>每处圣火需要把<strong>指定的两名角色</strong>编入队伍；祭坛两侧的雕像会发光。</li>
+          <li>打开道具栏 → 贵重品 → 使用 <strong>「明亮的镜子」</strong>。角色不对时镜子会无效。</li>
+        </ol>
+      </div>
+
+      <h3 class="subhead">四座圣火（顺序不限）</h3>
+      <div class="grid two" id="flames-list"></div>
+
+      <h3 class="subhead">最终迷宫与 BOSS</h3>
+      <div class="card">
+        <p>四座圣火全部点燃后，世界地图会出现光束。乘船前往海中央的 <strong>维达尼亚岛（贝达尼亚岛）</strong>，进入最终迷宫。</p>
+        <div class="phase-grid" style="margin-top:12px">
+          <div class="phase">
+            <div class="phase-tag">Phase 1</div>
+            <h3>维德</h3>
+            <ul>
+              <li>本体 <strong>20 万 HP</strong> + 触手。</li>
+              <li>半血时会换队，由初始 4 人切换到后备 4 人。</li>
+            </ul>
+          </div>
+          <div class="phase">
+            <div class="phase-tag">Phase 2</div>
+            <h3>邪神维德</h3>
+            <ul>
+              <li>本体 <strong>25 万 HP</strong>，弱点 <strong>剑、匕首、弓、风、光</strong>。</li>
+              <li>左右手分别为纯属性/纯物理。</li>
+              <li>过半血后<strong>不能用复活</strong>，并频繁施加多属性 debuff；舞娘和药师可提供全体免疫。</li>
+            </ul>
+          </div>
+        </div>
+        <p class="note">
+          推荐等级 60+（51 只是最低推荐），两支队伍都练好；剑士和盗贼主输出，神官/药师/舞娘负责回复与增益。
+          结局前记得存档；击败后进入结局，游戏不会生成通关存档，维达尼亚岛会消失，最终 BOSS 不能重复挑战。
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="platinum">
+      <div class="section-head">
+        <div class="eyebrow">07 · Platinum</div>
+        <h2>歧路旅人 &amp; 缔造传奇 <span class="badge badge-gold">金</span> <span class="badge badge-platinum">白金</span></h2>
+        <p class="lead">
+          击败维德后看完后记获得「歧路旅人」；上面 7 个奖杯全部完成后自动获得白金「缔造传奇」。
+        </p>
+      </div>
+
+      <div class="grid two">
+        <article class="card">
+          <div class="eyebrow">Epilogue</div>
+          <h3>歧路旅人</h3>
+          <p>击败最终 BOSS 维德后，<strong>看完后记/尾声</strong>即可获得。角色离开的顺序取决于你的入队顺序。</p>
+          <p>很多玩家刻意把它留到最后，作为白金截图。若没跳杯，确认是否看完了后记；可以读取最终 BOSS 前的存档重新看结局，或在故事记录里回看。</p>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Platinum</div>
+          <h3>缔造传奇</h3>
+          <p>上面 7 个杯子全部完成后自动获得。</p>
+          <p>本作没有严格意义上「永久错过」的奖杯（只要保留最终章前的存档就能补救），但最终章是不可逆节点。一周目即可白金，常见耗时约 <strong>55–80 小时</strong>。</p>
+        </article>
+      </div>
+
+      <h3 class="subhead">最终自检</h3>
+      <div class="card" id="platinum-remaining"></div>
+
+      <div class="callout info" style="margin-top:14px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 10.5v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1" fill="currentColor"/>
+        </svg>
+        <div>
+          <strong>如果你是从 PS4 版继承存档到 PS5：</strong>
+          打开故事记录可以补看各角色剧情、触发部分剧情杯；打开支线列表、装备栏、技能栏可以补触发对应杯子。
+          异界之门可以同步后打开故事记录直接跳杯，不用重打魔神。但最终 BOSS 和结局通常需要重新打/重新看，建议在最终 BOSS 前存档。
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button class="btn ghost" id="reset-progress" type="button">重置本机进度</button>
+        <a class="btn ghost" href="#overview">回到顶部</a>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="section-head">
+        <div class="eyebrow">Sources</div>
+        <h2>资料来源</h2>
+        <p class="lead">攻略按 PSNINE、A9VG、17173、game8、神ゲー等资料整理；如与游戏内实际数值有出入，以游戏内为准。</p>
+      </div>
+      <ul class="sources" id="sources-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span><strong>歧路旅人 II · 未完成奖杯攻略</strong> · PSN xinx_030503 · 整理于 2026-11-17</span>
+      <span>进度仅保存在本机浏览器 · 可离线打开</span>
+    </div>
+  </footer>
+
+  <button id="toTop" type="button" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    /* ===== Data ===== */
+    const trophies = [
+      { id: "job", name: "职业博通", type: "silver", typeLabel: "银", condition: "已获取所有的战斗职业", prereq: "8 基础职业 + 4 隐藏职业", timing: "尽早" },
+      { id: "records", name: "唱片收藏家", type: "silver", typeLabel: "银", condition: "已获得所有唱片", prereq: "30 张唱片 · 先完成支线 041", timing: "探索期顺路" },
+      { id: "map", name: "索里苏提亚大师", type: "gold", typeLabel: "金", condition: "已走遍地图上的每一个角落", prereq: "100 个地点", timing: "进最终章前尽量补齐" },
+      { id: "sidequests", name: "不虚此行", type: "silver", typeLabel: "银", condition: "已解决所有支线故事", prereq: "69 条支线（含 069 异界之门）", timing: "进最终章前" },
+      { id: "gate", name: "异界之门", type: "silver", typeLabel: "银", condition: "已溃败异界的威胁", prereq: "001 → 050 → 051 → 069，8 人全入队", timing: "进最终章前" },
+      { id: "dawn", name: "旭日东升", type: "gold", typeLabel: "金", condition: "夺回了世界的明天", prereq: "8 人主线 + 4 个双人故事", timing: "最终章" },
+      { id: "traveler", name: "歧路旅人", type: "gold", typeLabel: "金", condition: "迎来了旅程的尾声", prereq: "击败维德后看完后记", timing: "结局" },
+      { id: "platinum", name: "缔造传奇", type: "platinum", typeLabel: "白金", condition: "已获取所有的奖杯", prereq: "上面 7 个全部完成", timing: "自动" }
+    ];
+
+    const roadmap = [
+      { n: "01", title: "职业博通", detail: "12 个职业", href: "#jobs" },
+      { n: "02", title: "唱片收藏家", detail: "30 张唱片", href: "#records" },
+      { n: "03", title: "不虚此行", detail: "001–068", href: "#sidequests" },
+      { n: "04", title: "异界之门", detail: "069 + 同时跳杯", href: "#gate" },
+      { n: "05", title: "索里苏提亚大师", detail: "100 地点", href: "#map" },
+      { n: "06", title: "旭日东升", detail: "最终章", href: "#finale" },
+      { n: "07", title: "歧路旅人", detail: "后记", href: "#platinum" },
+      { n: "08", title: "缔造传奇", detail: "白金", href: "#platinum" }
+    ];
+
+    const baseJobs = [
+      { key: "merchant", name: "商人", loc: "瓦伊鲁多兰多·西克拉克雷吉荒道" },
+      { key: "warrior", name: "剑士", loc: "丙午·塞伊" },
+      { key: "hunter", name: "猎人", loc: "托托哈哈岛·西特洛甫霍普古道", note: "需穿过树荫，可能要求白天" },
+      { key: "dancer", name: "舞娘", loc: "利夫兰多·威尔格罗布" },
+      { key: "apothecary", name: "药师", loc: "赫巴兰多·康宁湾" },
+      { key: "thief", name: "盗贼", loc: "布兰德兰多·轮敦工厂区", note: "会长仅在夜晚出现" },
+      { key: "cleric", name: "神官", loc: "克里斯特兰多·国境大瀑布（教堂内）" },
+      { key: "scholar", name: "学者", loc: "温特兰多·西凛芬镇雪道" }
+    ];
+
+    const hiddenJobs = [
+      {
+        key: "inventor",
+        name: "发明家",
+        loc: "布兰德兰多·东新德尔斯塔街道 · 红色房子",
+        steps: [
+          "从新德尔斯塔出发：第一个 T 字路口向北，靠近北出口的 T 字路口向东，即可看到房子。",
+          "找「发明家安卡」对话，完成支线 033「天才发明家」。",
+          "最早可拿的隐藏职业，序章阶段就能去。"
+        ],
+        note: "技能需要收集素材制作发明，职业本身解锁很简单。"
+      },
+      {
+        key: "arcanist",
+        name: "魔导士",
+        loc: "被分割的大海·魔途之岛",
+        steps: [
+          "先完成商人支线 025「生意的味道 特洛甫霍普篇」，花 10 万叶币买船，才能出海。",
+          "到「被分割的大海」右下角漩涡，击败海坊主（Lv45，HP 95,000）。",
+          "进入魔途之岛迷宫，在入口左上方走隐形桥，到左侧高台与「魔导士的后裔」对话。"
+        ],
+        note: "部分攻略写作「魔导师」，是同一个职业。"
+      },
+      {
+        key: "armsmaster",
+        name: "武器大师",
+        loc: "瓦伊鲁多兰多·格拉维尔 · 熔炉左边的房子",
+        steps: [
+          "门口有讨债人挡路：可用比试（Lv15，约 1.5 万 HP，4 盾）、唆使（弱枪/短剑/杖/雷）、偷袭（斯洛妮 Lv30）或安眠草（1 个）。",
+          "与「退休的锻造师波鲁达」对话；身上至少带一把生锈武器，他打磨后即解锁武器大师。",
+          "交齐 6 把生锈武器可完成「寻求神器」，获得 20,000 叶币 + 坚王之盾；每把神器对应一个武器大师技能。"
+        ],
+        note: "只拿职业博通的话，带一把生锈武器即可；6 把全交是为了技能和任务奖励。"
+      },
+      {
+        key: "conjurer",
+        name: "祈祷师",
+        loc: "丙午·库国·五重塔",
+        steps: [
+          "推进光（剑士）主线至第五章，解放库国。",
+          "接支线 067「五重塔的试炼」，挑战 5 层守卫。",
+          "顶层击败「塔上的祈祷师」，奖励传承之证【祈祷师】，使用后解锁职业。"
+        ],
+        note: "五重塔的支线需要在库国剧情推进后才能接。"
+      }
+    ];
+
+    const weapons = [
+      { id: "sword", rust: "生锈的剑", divine: "霸王之剑", how: "凛芬镇支线 039「石中剑」；需先在欧兹拉修武器店从退休矿工处获得「结实的鹤嘴锄」（5,500 叶币）" },
+      { id: "spear", rust: "生锈的长枪", divine: "战王之枪", how: "利夫兰多·汀巴雷因城前广场，最左侧守塔老兵（Lv8，可击晕）后方通道尽头宝箱" },
+      { id: "dagger", rust: "生锈的短剑", divine: "舞王短剑", how: "被分割的大海·女帝的船骸（危险度 Lv48，无 BOSS）最深处宝箱；需先有船" },
+      { id: "axe", rust: "生锈的斧", divine: "勇王之斧", how: "丙午·西塞伊沙路·流沙监牢，击败 BOSS 沙漠虫后的宝箱" },
+      { id: "bow", rust: "生锈的弓", divine: "狩王之弓", how: "托托哈哈岛·无名之乡南侧·陨落的遗迹，击败 BOSS 贝希摩斯后的宝箱" },
+      { id: "staff", rust: "生锈的杖", divine: "灵王之杖", how: "克里斯特兰多·西蒙特维斯山道下梯子，划船进入瀑布洞窟·水灵之座，中央宝箱" }
+    ];
+
+    const recordGroups = [
+      {
+        title: "001–003 · 支线奖励",
+        items: [
+          { num: "001", name: "凯特琳的主旋律 Piano Ver", source: "支线 041「生意的味道 凛芬镇篇」奖励", chip: "先完成支线 041" },
+          { num: "002", name: "凯特琳的主旋律 Guitar Ver", source: "支线 041「生意的味道 凛芬镇篇」奖励", chip: "先完成支线 041" },
+          { num: "003", name: "凯特琳的主旋律 Violin Ver", source: "支线 041「生意的味道 凛芬镇篇」奖励", chip: "先完成支线 041" }
+        ]
+      },
+      {
+        title: "004–011 · 各初始城镇道具店",
+        items: [
+          { num: "004", name: "猎人欧修缇的主旋律", source: "托托哈哈岛·兽人村道具店" },
+          { num: "005", name: "药师卡斯蒂的主旋律", source: "赫巴兰多·卡纳尔布来因道具店" },
+          { num: "006", name: "盗贼斯洛妮的主旋律", source: "布兰德兰多·新德尔斯塔道具店" },
+          { num: "007", name: "学者奥兹巴尔多的旋律", source: "温特兰多·寒岬村道具店" },
+          { num: "008", name: "商人帕特提欧的主旋律", source: "瓦伊鲁多兰多·欧兹拉修道具店" },
+          { num: "009", name: "舞娘爱格妮娅的主旋律", source: "利夫兰多·库罗普提尔道具店" },
+          { num: "010", name: "神官提米诺斯的主旋律", source: "克里斯特兰多·弗拉姆教堂村道具店" },
+          { num: "011", name: "剑士光的主旋律", source: "丙午·沙粒之村的驿站道具店" }
+        ]
+      },
+      {
+        title: "012–015 · 音乐商人",
+        items: [
+          { num: "012", name: "一般战斗1", source: "赫巴兰多·洛克岛酒吧内的音乐商人" },
+          { num: "013", name: "一般战斗2", source: "赫巴兰多·洛克岛酒吧内的音乐商人" },
+          { num: "014", name: "一般战斗3", source: "赫巴兰多·洛克岛酒吧内的音乐商人" },
+          { num: "015", name: "海中战斗", source: "赫巴兰多·洛克岛酒吧内的音乐商人" }
+        ]
+      },
+      {
+        title: "016–017 · 音乐家",
+        items: [
+          { num: "016", name: "决战1", source: "克里斯特兰多·梅林希尔斯，祭殿前的音乐家" },
+          { num: "017", name: "决战2", source: "克里斯特兰多·梅林希尔斯，祭殿前的音乐家" }
+        ]
+      },
+      {
+        title: "018–024 · 威尔格罗布百货商店",
+        items: [
+          { num: "018", name: "无赖的旋律", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "019", name: "独白", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "020", name: "闲情日常", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "021", name: "铁心铁意", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "022", name: "往日", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "023", name: "助力", source: "利夫兰多·威尔格罗布百货商店道具店" },
+          { num: "024", name: "希望", source: "利夫兰多·威尔格罗布百货商店道具店" }
+        ]
+      },
+      {
+        title: "025–028 · 各城镇道具店",
+        items: [
+          { num: "025", name: "枯镇欧兹拉修", source: "瓦伊鲁多兰多·欧兹拉修道具店" },
+          { num: "026", name: "枯镇欧兹拉修 -夜-", source: "瓦伊鲁多兰多·欧兹拉修道具店" },
+          { num: "027", name: "启程之歌", source: "利夫兰多·库罗普提尔道具店" },
+          { num: "028", name: "倾我所有", source: "布兰德兰多·新德尔斯塔道具店" }
+        ]
+      },
+      {
+        title: "029–030 · 剧情与特殊 NPC",
+        items: [
+          { num: "029", name: "吉尔的即兴演奏", source: "布兰德兰多·新德尔斯塔·小道「吉尔的酒吧」，向吉尔购买", chip: "需完成舞娘篇剧情" },
+          { num: "030", name: "朱曲 心中的灯火", source: "库国·城前广场的琵琶手小夜；找不到时去库国外围城镇左上方的城墙", chip: "需完成光与爱格妮娅的双人任务" }
+        ]
+      }
+    ];
+
+    const mapMisses = [
+      { id: "01", name: "监狱岛", detail: "完成学者篇后回去，要一直往北走到监狱入口，不是只走到码头。" },
+      { id: "02", name: "星落之泉", detail: "从舞娘初始城镇（库罗普提尔）坐船出发，继续向下/向南。" },
+      { id: "03", name: "篡夺者的巢穴", detail: "卡尔布莱因西侧，前期容易因为没好东西而跳过。" },
+      { id: "04", name: "被遗弃的水路", detail: "很多人的最后一个地点，反复检查。" },
+      { id: "05", name: "恶食之巢", detail: "海上容易漏，航行时注意标记。" },
+      { id: "06", name: "海鸣洞穴", detail: "从兽人之滨坐小船到中央岛屿。" },
+      { id: "07", name: "贝达尼亚岛 / 维达尼亚岛", detail: "最终章相关地点，计入总数；相关剧情没完成时可能停在 99/100。" },
+      { id: "08", name: "地狱之门", detail: "必须先完成前置支线，等门打开后进去才会计数；只在门口看不算。" },
+      { id: "09", name: "奈落之城", detail: "有玩家反馈进去过但地图上不显示，建议对照清单确认。" },
+      { id: "10", name: "托托哈哈岛", detail: "从港口坐船到达的洞窟。" },
+      { id: "11", name: "药师第一章的水源", detail: "第一章副本里的水域，容易漏。" },
+      { id: "12", name: "八名角色的第一章副本", detail: "如果跳过某人的第一章，需要亲自进去一次。" },
+      { id: "13", name: "无名的一条路", detail: "有玩家最后漏的是地图上一条没有名字的路，对照高清地图逐块走。" }
+    ];
+
+    const sidequestGroups = [
+      {
+        region: "初始",
+        items: [
+          { num: "001", name: "旅行者阿尔的包", loc: "首个城市外（旅行者阿尔）", prereq: "离开首城后" }
+        ]
+      },
+      {
+        region: "赫巴兰多地区",
+        items: [
+          { num: "002", name: "相约", loc: "卡纳尔布来因（等人的年轻人）" },
+          { num: "003", name: "旅途的遗失物", loc: "卡纳尔布来因（年轻的旅行者）" },
+          { num: "004", name: "修复灯塔", loc: "卡纳尔布来因（镇里的灯塔守卫）", prereq: "需解锁航行" },
+          { num: "005", name: "欠收的葡萄地", loc: "西康宁湾海道（葡萄果农）" },
+          { num: "006", name: "偷鱼贼", loc: "康宁湾·渔港（领头渔夫）" },
+          { num: "007", name: "少女的心愿", loc: "康宁湾·郊外（无望的少女）" },
+          { num: "008", name: "蕾蒂·克拉丽莎，在那之后", loc: "康宁湾·郊外（蕾蒂·克拉丽莎）", prereq: "学者篇" },
+          { num: "009", name: "工程师弗洛伊特与沙斯蒂，在那之后", loc: "洛克岛（沙斯蒂）", prereq: "商人篇" }
+        ]
+      },
+      {
+        region: "利夫兰多地区",
+        items: [
+          { num: "010", name: "醉醺醺的贵族", loc: "库罗普提尔·酒馆（酒馆的女孩）" },
+          { num: "011", name: "库罗普织物的复活", loc: "库罗普提尔（织工）" },
+          { num: "012", name: "孩子的心意", loc: "威尔格罗布（心事重重的少女）" },
+          { num: "013", name: "没用的果实", loc: "威尔格罗布（热爱镇子的青年）" },
+          { num: "014", name: "守卫老人和米拉，在那之后", loc: "威尔格罗布（守卫老人）", prereq: "盗贼篇" },
+          { num: "015", name: "管家米尚，在那之后", loc: "威尔格罗布·阿尔伦多宅邸（管家米尚）", prereq: "商人篇" },
+          { num: "016", name: "清白的证明", loc: "汀巴雷因（警备员乌拉）" },
+          { num: "017", name: "有罪的证明", loc: "汀巴雷因（警备员乌拉）" },
+          { num: "018", name: "正义的证明", loc: "汀巴雷因（旁听人）", prereq: "先完成 016 与 017" },
+          { num: "019", name: "没指望的婚姻", loc: "汀巴雷因·城前广场（千金蒂芙尼）" }
+        ]
+      },
+      {
+        region: "托托哈哈岛",
+        items: [
+          { num: "020", name: "做菜的智慧", loc: "兽人村（喜欢做菜的兽人）" },
+          { num: "021", name: "架起友好关系之桥", loc: "兽人村（人类男孩）" },
+          { num: "022", name: "赖床精渔夫", loc: "特洛甫霍普（渔夫的大师傅）" },
+          { num: "023", name: "寻找珍珠", loc: "特洛甫霍普·水上剧场（寻珠男性）" },
+          { num: "024", name: "戏剧演员", loc: "特洛甫霍普·水上剧场（舞台导演）" },
+          { num: "025", name: "生意的味道 特洛甫霍普篇", loc: "特洛甫霍普", prereq: "需 10 万叶币买船" },
+          { num: "026", name: "伊噜咳嗒唉嘿……？", loc: "无名之乡（兽人）" },
+          { num: "027", name: "守护人西鲁鲁特，在那之后", loc: "无名之乡（守护人西鲁鲁特）", prereq: "神官篇" }
+        ]
+      },
+      {
+        region: "布兰德兰多地区",
+        items: [
+          { num: "028", name: "任性的富家子弟", loc: "新德尔斯塔（任性的富家子弟）" },
+          { num: "029", name: "流连于游戏厅的男子", loc: "新德尔斯塔·小道（担心丈夫的妻子）" },
+          { num: "030", name: "招牌菜", loc: "新德尔斯塔·酒馆（酒馆的厨师）" },
+          { num: "031", name: "心累！", loc: "新德尔斯塔（精疲力尽的男性）" },
+          { num: "032", name: "保镖贝萝妮卡，在那之后", loc: "新德尔斯塔（保镖贝萝妮卡）", prereq: "舞娘篇" },
+          { num: "033", name: "天才发明家", loc: "东新德尔斯塔街道（发明家安卡）" },
+          { num: "034", name: "可爱的凯瑟琳", loc: "轮敦（形容憔悴的男子）" },
+          { num: "035", name: "钟楼之钟", loc: "轮敦（钟楼工程师）" },
+          { num: "036", name: "王族的后裔", loc: "轮敦·工厂区（某个王族的后人）" }
+        ]
+      },
+      {
+        region: "温特兰多地区",
+        items: [
+          { num: "037", name: "要生了！", loc: "寒岬镇（慌张的村民）" },
+          { num: "038", name: "无赖的老巢", loc: "东寒岬村雪道（雪道的行商）" },
+          { num: "039", name: "石中剑", loc: "凛芬镇（想拔剑的女性）", prereq: "需四人各带随从或通关后" },
+          { num: "040", name: "给儿子的礼物", loc: "凛芬镇（想念儿子的父亲）" },
+          { num: "041", name: "生意的味道 凛芬镇篇", loc: "凛芬镇（商人奥特里）" },
+          { num: "042", name: "梅莉娅，在那之后", loc: "凛芬镇（领主梅莉娅）", prereq: "药师篇" },
+          { num: "043", name: "无法斩断的思念", loc: "南斯托姆黑伊鲁（垂头丧气的女性）" },
+          { num: "044", name: "危在旦夕的道具商", loc: "南斯托姆黑伊鲁（道具店店主的女儿）" }
+        ]
+      },
+      {
+        region: "克里斯特兰多地区",
+        items: [
+          { num: "045", name: "朝圣者的安全", loc: "弗拉姆教堂村（长老）" },
+          { num: "046", name: "圣窗的修复", loc: "弗拉姆教堂村·大圣堂（神官）" },
+          { num: "047", name: "圣堂骑士奥尔托，在那之后", loc: "弗拉姆教堂村·大圣堂（圣堂骑士奥尔托）", prereq: "神官篇" },
+          { num: "048", name: "穷困潦倒的研究者", loc: "蒙特维斯（章鱼研究者）" },
+          { num: "049", name: "斗技大会之王", loc: "蒙特维斯（忧心忡忡的女性）" },
+          { num: "050", name: "世界三大奇书", loc: "蒙特维斯·大图书馆（管理奇书的图书馆员）" },
+          { num: "051", name: "边狱之书", loc: "蒙特维斯·大图书馆（旅行者阿尔）", prereq: "先完成 050" },
+          { num: "052", name: "神秘的匣子", loc: "梅林希尔斯·祭殿前（年轻的收藏家）" },
+          { num: "053", name: "莱拉，在那之后", loc: "梅林希尔斯·祭殿前（新人舞娘莱拉）" }
+        ]
+      },
+      {
+        region: "瓦伊鲁多兰多地区",
+        items: [
+          { num: "054", name: "被盗的商品", loc: "欧兹拉修（商人）" },
+          { num: "055", name: "想看她喜笑颜开", loc: "欧兹拉修（乔）" },
+          { num: "056", name: "失踪的女儿", loc: "格拉维尔（担心女儿的母亲）" },
+          { num: "057", name: "明星的旅途", loc: "格拉维尔（想当明星的青年）" },
+          { num: "058", name: "阿尔奥皮奈，在那之后", loc: "格拉维尔（阿尔奥皮奈）", prereq: "猎人篇" },
+          { num: "059", name: "矿道的恶魔", loc: "未完工的隧道（工程负责人）" }
+        ]
+      },
+      {
+        region: "丙午地区",
+        items: [
+          { num: "060", name: "腐朽的寺院的猎刀人", loc: "塞伊（年轻的剑士）", prereq: "仅可单人前往" },
+          { num: "061", name: "亡国的设计图", loc: "塞伊·东区（木匠大师）" },
+          { num: "062", name: "生意的味道 塞伊篇", loc: "塞伊（大商人马苏德）" },
+          { num: "063", name: "最强的矛和盾", loc: "库国·城前广场（二人的青梅竹马）" },
+          { num: "064", name: "一去不返的名马", loc: "库国·城前广场（女性马匹出租商）" },
+          { num: "065", name: "库国之宝", loc: "库国·朱玄城前（掌宝大臣）" },
+          { num: "066", name: "美香，在那之后", loc: "库国·城前广场（美香）", prereq: "剑士篇 + 光与爱格妮娅双人任务" },
+          { num: "067", name: "五重塔的试炼", loc: "库国·五重塔（带路少年）", prereq: "库国剧情" }
+        ]
+      },
+      {
+        region: "被分割的大海",
+        items: [
+          { num: "068", name: "随波漂来的信", loc: "灯塔守卫之岛（灯塔守卫的妻子）" },
+          { num: "069", name: "异界之门", loc: "？？？（旅行者阿尔）", prereq: "先完成 051" }
+        ]
+      }
+    ];
+
+    const flames = [
+      {
+        id: "beast",
+        name: "主兽墓所",
+        region: "托托哈哈岛 · 经兽人村",
+        chars: "卡斯蒂 + 欧修缇",
+        boss: "异形魔物 Lv60，护盾 7，弱斧/弓/冰/光；小怪「异形幼体」护盾 3，弱斧/弓。暗属性魔法伤害高，提高属防，优先打本体。"
+      },
+      {
+        id: "quiet",
+        name: "静之洞窟",
+        region: "库国东侧沙路",
+        chars: "阿格妮娅 + 光",
+        boss: "无 BOSS，直接点圣火。"
+      },
+      {
+        id: "sunset",
+        name: "落日遗迹",
+        region: "克拉格雷吉东侧",
+        chars: "奥兹巴尔多 + 帕特提欧",
+        boss: "无 BOSS；沿途可拾取「手记碎片 01–17」，最深处点圣火。"
+      },
+      {
+        id: "church",
+        name: "弗雷姆教堂",
+        region: "克雷斯特兰多 · 大圣堂前",
+        chars: "提米诺斯 + 斯洛妮",
+        boss: "阿尔卡内特 Lv60，护盾 8，弱枪/斧/冰/雷；会召唤四种「夜之仆从」封锁弱点，杂兵均弱光。上广场阶梯会强制触发战斗，先整备好再上去。"
+      }
+    ];
+
+    const sources = [
+      { title: "PSNINE 奖杯页（xinx_030503）", url: "https://www.psnine.com/psngame/29560?psnid=xinx_030503" },
+      { title: "PSNINE 异界之门 Tips", url: "https://www.psnine.com/trophy/29560027" },
+      { title: "PSNINE 索里苏提亚大师 Tips", url: "https://www.psnine.com/trophy/29560025" },
+      { title: "PSNINE 不虚此行 Tips", url: "https://www.psnine.com/trophy/29560028" },
+      { title: "PSNINE 唱片收藏家 Tips", url: "https://www.psnine.com/trophy/29560029" },
+      { title: "PSNINE 职业博通 Tips", url: "https://www.psnine.com/trophy/29560024" },
+      { title: "PSNINE 旭日东升 Tips", url: "https://www.psnine.com/trophy/29560021" },
+      { title: "PSNINE 歧路旅人 Tips", url: "https://www.psnine.com/trophy/29560022" },
+      { title: "PSNINE 白金 Tips（含路线与 PS4→PS5）", url: "https://www.psnine.com/trophy/29560001" },
+      { title: "《八方旅人2》全 69 条支线攻略", url: "https://www.sohu.com/a/645512502_100274826" },
+      { title: "A9VG 全 30 张唱片收集", url: "https://bbs.a9vg.com/thread-8893090-1-1.html" },
+      { title: "17173 全战斗职业解锁攻略", url: "https://news.17173.com/z/bflr2/content/02262023/171807030.shtml" },
+      { title: "game8 最终章 / 四圣火攻略", url: "https://game8.jp/octopathtraveler2/514469" },
+      { title: "神ゲー攻略 奖杯条件与易错过提示", url: "https://kamigame.jp/octopathtraveler2/page/251541721597399933.html" },
+      { title: "游民星空 异界之门隐藏支线解锁", url: "https://www.gamersky.com/handbook/202303/1573324.shtml" },
+      { title: "猎猫人老贾全收集腾讯文档", url: "https://docs.qq.com/sheet/DVVp1VWtFYnlaWmNF" }
+    ];
+
+    /* ===== Helpers ===== */
+    const $ = (sel, root = document) => root.querySelector(sel);
+    const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+    function iconSvg(name) {
+      if (name === "sun") {
+        return '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+      }
+      return '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+    }
+
+    function toast(message) {
+      const el = $("#toast");
+      el.textContent = message;
+      el.classList.add("show");
+      clearTimeout(toast._timer);
+      toast._timer = setTimeout(() => el.classList.remove("show"), 2200);
+    }
+
+    function countUnique(selector, root = document) {
+      const seen = new Set();
+      let done = 0;
+      $$(selector, root).forEach((cb) => {
+        const id = cb.dataset.track;
+        if (!id || seen.has(id)) return;
+        seen.add(id);
+        if (cb.checked) done++;
+      });
+      return { done, total: seen.size };
+    }
+
+    /* ===== Render ===== */
+    function renderTrophies() {
+      $("#trophy-list").innerHTML = trophies.map((t) => `
+        <label class="trophy-card" id="trophy-${t.id}">
+          <span class="type-dot type-${t.type}" aria-hidden="true"></span>
+          <span class="trophy-body">
+            <span class="trophy-top">
+              <span class="trophy-name">${t.name}</span>
+              <span class="badge badge-${t.type}">${t.typeLabel}</span>
+            </span>
+            <span class="trophy-cond">${t.condition}</span>
+            <span class="trophy-meta">${t.prereq} · ${t.timing}</span>
+          </span>
+          <input type="checkbox" data-track="trophy-${t.id}" aria-label="标记 ${t.name} 已完成">
+        </label>
+      `).join("");
+    }
+
+    function renderRoadmap() {
+      $("#roadmap").innerHTML = roadmap.map((s) => `
+        <a class="step" href="${s.href}">
+          <span class="num">${s.n}</span>
+          <strong>${s.title}</strong>
+          <span>${s.detail}</span>
+        </a>
+      `).join("");
+    }
+
+    function renderBaseJobs() {
+      $("#base-jobs").innerHTML = baseJobs.map((j) => `
+        <label class="check-card" id="job-${j.key}">
+          <input type="checkbox" data-track="job-${j.key}" aria-label="标记 ${j.name} 职业证已获取">
+          <span class="check-body">
+            <span class="check-title">${j.name}</span>
+            <span class="check-meta">${j.loc}</span>
+            ${j.note ? `<span class="check-note">${j.note}</span>` : ""}
+          </span>
+        </label>
+      `).join("");
+    }
+
+    function renderHiddenJobs() {
+      $("#hidden-jobs").innerHTML = hiddenJobs.map((j) => `
+        <article class="card" id="job-${j.key}">
+          <div class="card-head">
+            <div>
+              <div class="eyebrow">隐藏职业</div>
+              <h3>${j.name}</h3>
+            </div>
+            <label class="mini-check">
+              <input type="checkbox" data-track="job-${j.key}" aria-label="标记 ${j.name} 已解锁">
+              <span>已解锁</span>
+            </label>
+          </div>
+          <p class="loc">${j.loc}</p>
+          <ol>${j.steps.map((s) => `<li>${s}</li>`).join("")}</ol>
+          ${j.note ? `<p class="note">${j.note}</p>` : ""}
+        </article>
+      `).join("");
+    }
+
+    function renderWeapons() {
+      $("#weapons-body").innerHTML = weapons.map((w) => `
+        <tr id="wpn-${w.id}">
+          <td><input type="checkbox" data-track="wpn-${w.id}" aria-label="标记 ${w.rust} 已交付"></td>
+          <td><strong>${w.rust}</strong></td>
+          <td>${w.divine}</td>
+          <td>${w.how}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderRecords() {
+      $("#records-list").innerHTML = recordGroups.map((g) => `
+        <details class="group" open data-group="records">
+          <summary>
+            <span class="arrow" aria-hidden="true">▸</span>
+            <span class="group-title">${g.title}</span>
+            <span class="count" data-group-count>0 / ${g.items.length}</span>
+          </summary>
+          <div class="group-body">
+            ${g.items.map((r) => `
+              <label class="check-item" id="rec-${r.num}">
+                <input type="checkbox" data-track="rec-${r.num}" aria-label="标记唱片 ${r.num} ${r.name} 已获得">
+                <span class="item-body">
+                  <span class="item-title"><span class="num">${r.num}</span>${r.name}</span>
+                  <span class="item-meta">${r.source}</span>
+                  ${r.chip ? `<span class="chip star">${r.chip}</span>` : ""}
+                </span>
+              </label>
+            `).join("")}
+          </div>
+        </details>
+      `).join("");
+    }
+
+    function renderMap() {
+      $("#map-list").innerHTML = mapMisses.map((m) => `
+        <label class="check-item" id="map-${m.id}">
+          <input type="checkbox" data-track="map-${m.id}" aria-label="标记地点 ${m.name} 已到访">
+          <span class="item-body">
+            <span class="item-title"><span class="num">${m.id}</span>${m.name}</span>
+            <span class="item-meta">${m.detail}</span>
+          </span>
+        </label>
+      `).join("");
+    }
+
+    function renderSidequests() {
+      $("#sidequests-list").innerHTML = sidequestGroups.map((g) => `
+        <details class="group" data-group="sidequests">
+          <summary>
+            <span class="arrow" aria-hidden="true">▸</span>
+            <span class="group-title">${g.region} <span class="muted">（${g.items.length}）</span></span>
+            <span class="count" data-group-count>0 / ${g.items.length}</span>
+          </summary>
+          <div class="group-body">
+            ${g.items.map((s) => `
+              <label class="check-item" id="sq-${s.num}">
+                <input type="checkbox" data-track="sq-${s.num}" aria-label="标记支线 ${s.num} ${s.name} 已完成">
+                <span class="item-body">
+                  <span class="item-title"><span class="num">${s.num}</span>${s.name}</span>
+                  <span class="item-meta">${s.loc}</span>
+                  ${s.prereq ? `<span class="chip star">★ ${s.prereq}</span>` : ""}
+                  ${s.num === "069" ? `<span class="chip gate">隐藏支线</span>` : ""}
+                </span>
+              </label>
+            `).join("")}
+          </div>
+        </details>
+      `).join("");
+    }
+
+    function renderFlames() {
+      $("#flames-list").innerHTML = flames.map((f) => `
+        <article class="card" id="flame-${f.id}">
+          <div class="eyebrow">${f.region}</div>
+          <h3>${f.name}</h3>
+          <p class="loc">必需角色：${f.chars}</p>
+          <p>${f.boss}</p>
+        </article>
+      `).join("");
+    }
+
+    function renderSources() {
+      $("#sources-list").innerHTML = sources.map((s) => `
+        <li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.title}</a></li>
+      `).join("");
+    }
+
+    /* ===== Progress ===== */
+    const STORAGE_KEY = "ot2-guide-progress-v1";
+    let progress = {};
+    try {
+      progress = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") || {};
+    } catch (e) {
+      progress = {};
+    }
+
+    function saveProgress() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      } catch (e) {
+        /* localStorage may be unavailable in private mode; keep in-memory */
+      }
+    }
+
+    function refreshProgress() {
+      const trophyCount = countUnique('input[data-track^="trophy-"]');
+      const allCount = countUnique("input[data-track]");
+
+      // Header ring
+      const ringFill = $("#ring-fill");
+      const radius = 21;
+      const circumference = 2 * Math.PI * radius;
+      ringFill.style.strokeDasharray = circumference;
+      ringFill.style.strokeDashoffset = circumference * (1 - (trophyCount.total ? trophyCount.done / trophyCount.total : 0));
+      $("#ring-text").textContent = `${trophyCount.done}/${trophyCount.total}`;
+
+      // Overall
+      const pct = allCount.total ? Math.round((allCount.done / allCount.total) * 100) : 0;
+      $("#overall-percent").textContent = `${pct}%`;
+      $("#overall-text").textContent = `${allCount.done} / ${allCount.total} 项`;
+      $("#overall-fill").style.width = `${pct}%`;
+
+      // Section bars
+      const sectionMap = [
+        { key: "jobs", prefix: "job-" },
+        { key: "records", prefix: "rec-" },
+        { key: "map", prefix: "map-" },
+        { key: "sidequests", prefix: "sq-" },
+        { key: "weapons", prefix: "wpn-" }
+      ];
+      sectionMap.forEach(({ key, prefix }) => {
+        const { done, total } = countUnique(`input[data-track^="${prefix}"]`);
+        const fill = document.querySelector(`[data-progress="${key}"] i`);
+        const label = document.querySelector(`[data-progress-label="${key}"]`);
+        if (fill) fill.style.width = total ? `${(done / total) * 100}%` : "0%";
+        if (label) label.textContent = `${done} / ${total}`;
+      });
+
+      // Group counts
+      $$("details[data-group]").forEach((d) => {
+        const { done, total } = countUnique('input[data-track]', d);
+        const countEl = d.querySelector("[data-group-count]");
+        if (countEl) countEl.textContent = `${done} / ${total}`;
+      });
+
+      // Trophy cards
+      trophies.forEach((t) => {
+        const card = document.getElementById(`trophy-${t.id}`);
+        const cb = document.querySelector(`input[data-track="trophy-${t.id}"]`);
+        if (card && cb) card.classList.toggle("done", cb.checked);
+      });
+
+      // Platinum remaining
+      const remainingEl = $("#platinum-remaining");
+      if (remainingEl) {
+        const remaining = trophies.filter((t) => !progress[`trophy-${t.id}`]);
+        if (!remaining.length) {
+          remainingEl.innerHTML = '<div class="callout info" style="margin:0"><div><strong>全部完成！</strong>回到游戏里拿下最后一个杯子，白金就是你的了。</div></div>';
+        } else {
+          remainingEl.innerHTML = `
+            <p style="margin:0 0 8px;color:var(--muted);font-size:12.5px">还差 <strong style="color:var(--text)">${remaining.length}</strong> 个奖杯：</p>
+            <div class="chips" style="margin:0">
+              ${remaining.map((t) => `<span class="chip">${t.name}</span>`).join("")}
+            </div>
+          `;
+        }
+      }
+    }
+
+    /* ===== Init interactions ===== */
+    function initCheckboxes() {
+      $$("input[data-track]").forEach((cb) => {
+        cb.checked = !!progress[cb.dataset.track];
+      });
+    }
+
+    document.addEventListener("change", (e) => {
+      const cb = e.target.closest('input[data-track]');
+      if (!cb) return;
+      const id = cb.dataset.track;
+      if (cb.checked) progress[id] = true;
+      else delete progress[id];
+      saveProgress();
+      // Sync duplicate checkboxes with the same track id (none currently, but keeps it safe)
+      $$(`input[data-track="${id}"]`).forEach((other) => {
+        if (other !== cb) other.checked = cb.checked;
+      });
+      refreshProgress();
+    });
+
+    function initTheme() {
+      const btn = $("#theme-toggle");
+      let theme = "dark";
+      try { theme = localStorage.getItem("ot2-theme") || "dark"; } catch (e) {}
+      const apply = (value) => {
+        document.documentElement.dataset.theme = value;
+        btn.innerHTML = iconSvg(value === "dark" ? "sun" : "moon");
+        btn.setAttribute("aria-label", value === "dark" ? "切换到浅色主题" : "切换到深色主题");
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.content = value === "dark" ? "#0a0e16" : "#f5f1e8";
+      };
+      apply(theme);
+      btn.addEventListener("click", () => {
+        theme = theme === "dark" ? "light" : "dark";
+        try { localStorage.setItem("ot2-theme", theme); } catch (e) {}
+        apply(theme);
+      });
+    }
+
+    function initSearch() {
+      const input = $("#search-input");
+      const results = $("#search-results");
+      const index = [];
+
+      trophies.forEach((t) => index.push({ type: "奖杯", cls: "trophy", title: t.name, detail: t.condition, anchor: `#trophy-${t.id}` }));
+      baseJobs.forEach((j) => index.push({ type: "职业", cls: "job", title: `${j.name}（基础职业）`, detail: j.loc, anchor: `#job-${j.key}` }));
+      hiddenJobs.forEach((j) => index.push({ type: "职业", cls: "job", title: `${j.name}（隐藏职业）`, detail: j.loc, anchor: `#job-${j.key}` }));
+      weapons.forEach((w) => index.push({ type: "武器", cls: "weapon", title: `${w.rust} → ${w.divine}`, detail: w.how, anchor: `#wpn-${w.id}` }));
+      recordGroups.forEach((g) => g.items.forEach((r) => index.push({ type: "唱片", cls: "record", title: `${r.num} ${r.name}`, detail: r.source, anchor: `#rec-${r.num}` })));
+      mapMisses.forEach((m) => index.push({ type: "地点", cls: "map", title: m.name, detail: m.detail, anchor: `#map-${m.id}` }));
+      sidequestGroups.forEach((g) => g.items.forEach((s) => index.push({ type: "支线", cls: "quest", title: `${s.num} ${s.name}`, detail: s.loc, anchor: `#sq-${s.num}` })));
+      flames.forEach((f) => index.push({ type: "圣火", cls: "flame", title: f.name, detail: `${f.region} · ${f.chars}`, anchor: `#flame-${f.id}` }));
+
+      const hide = () => {
+        results.classList.remove("open");
+        input.setAttribute("aria-expanded", "false");
+      };
+
+      const run = (query) => {
+        const q = query.trim().toLowerCase();
+        if (!q) {
+          results.innerHTML = "";
+          hide();
+          return;
+        }
+        const terms = q.split(/\s+/);
+        const matches = index.filter((item) => {
+          const hay = `${item.title} ${item.detail} ${item.type}`.toLowerCase();
+          return terms.every((term) => hay.includes(term));
+        }).slice(0, 40);
+
+        if (!matches.length) {
+          results.innerHTML = `<div class="empty">没有找到「${esc(query.trim())}」相关内容</div>`;
+        } else {
+          results.innerHTML = matches.map((m) => `
+            <button class="result" type="button" data-anchor="${m.anchor}">
+              <span class="badge badge-${m.cls}">${m.type}</span>
+              <span class="result-body">
+                <span class="result-title">${m.title}</span>
+                <span class="result-detail">${m.detail}</span>
+              </span>
+            </button>
+          `).join("");
+        }
+        results.classList.add("open");
+        input.setAttribute("aria-expanded", "true");
+      };
+
+      input.addEventListener("input", () => run(input.value));
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          input.value = "";
+          results.innerHTML = "";
+          hide();
+        }
+        if (e.key === "Enter") {
+          const first = results.querySelector(".result");
+          if (first) {
+            e.preventDefault();
+            goTo(first.dataset.anchor);
+          }
+        }
+      });
+
+      results.addEventListener("click", (e) => {
+        const btn = e.target.closest(".result");
+        if (!btn) return;
+        goTo(btn.dataset.anchor);
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".search-panel")) hide();
+      });
+    }
+
+    function goTo(anchor) {
+      const el = document.querySelector(anchor);
+      if (!el) return;
+      let d = el.closest("details");
+      while (d) {
+        d.open = true;
+        d = d.parentElement ? d.parentElement.closest("details") : null;
+      }
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.classList.remove("flash");
+      void el.offsetWidth;
+      el.classList.add("flash");
+      setTimeout(() => el.classList.remove("flash"), 1900);
+      const results = $("#search-results");
+      const input = $("#search-input");
+      if (results) results.classList.remove("open");
+      if (input) input.setAttribute("aria-expanded", "false");
+    }
+
+    function initExpandCollapse() {
+      document.addEventListener("click", (e) => {
+        const expand = e.target.closest("[data-expand-all]");
+        if (expand) {
+          const section = document.getElementById(expand.dataset.expandAll);
+          if (section) section.querySelectorAll("details").forEach((d) => { d.open = true; });
+        }
+        const collapse = e.target.closest("[data-collapse-all]");
+        if (collapse) {
+          const section = document.getElementById(collapse.dataset.collapseAll);
+          if (section) section.querySelectorAll("details").forEach((d) => { d.open = false; });
+        }
+      });
+    }
+
+    function initReset() {
+      const btn = $("#reset-progress");
+      if (!btn) return;
+      btn.addEventListener("click", () => {
+        if (!confirm("确定清空本机保存的攻略进度吗？此操作不可撤销。")) return;
+        progress = {};
+        saveProgress();
+        $$("input[data-track]").forEach((cb) => { cb.checked = false; });
+        refreshProgress();
+        toast("进度已重置");
+      });
+    }
+
+    function initScrollSpy() {
+      const links = $$(".site-nav a[href^='#']");
+      const sections = links.map((a) => document.querySelector(a.getAttribute("href"))).filter(Boolean);
+      if (!("IntersectionObserver" in window)) return;
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${entry.target.id}`));
+        });
+      }, { rootMargin: "-45% 0px -50% 0px", threshold: 0 });
+      sections.forEach((s) => observer.observe(s));
+    }
+
+    function initToTop() {
+      const btn = $("#toTop");
+      window.addEventListener("scroll", () => {
+        btn.classList.toggle("show", window.scrollY > 600);
+      }, { passive: true });
+      btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+      window.addEventListener("beforeprint", () => {
+        $$("details").forEach((d) => { d.open = true; });
+      });
+    }
+
+    /* ===== Boot ===== */
+    renderTrophies();
+    renderRoadmap();
+    renderBaseJobs();
+    renderHiddenJobs();
+    renderWeapons();
+    renderRecords();
+    renderMap();
+    renderSidequests();
+    renderFlames();
+    renderSources();
+    initCheckboxes();
+    initTheme();
+    initSearch();
+    initExpandCollapse();
+    initReset();
+    initScrollSpy();
+    initToTop();
+    refreshProgress();
+  </script>
+</body>
+</html>
