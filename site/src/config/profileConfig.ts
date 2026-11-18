@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "XinX",
 
 	// 个人签名
-	bio: "记录游戏攻略与心得。",
+	bio: "记录游戏攻略与生活印象。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

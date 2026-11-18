@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到游戏攻略站！这里整理流程攻略、支线任务、角色培养与 BOSS 战资料。",
+	content: "欢迎来到 Chacha 的印象空间！这里整理流程攻略、支线任务、角色培养与 BOSS 战资料。",
 
 	// 是否允许用户关闭公告
 	closable: true,

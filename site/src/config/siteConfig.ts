@@ -42,20 +42,22 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "游戏攻略",
+	title: "Chacha的印象空间",
 
 	// 站点副标题
-	subtitle: "Game Walkthrough",
+	subtitle: "Chacha's Impression Space",
 
 	// 站点 URL
 	site_url: "https://game-walkthrough.pages.dev",
 
 	// 站点描述
 	description:
-		"整理流程攻略、支线任务、角色培养、装备收集和 BOSS 战资料，帮助你顺利完成每一段冒险。",
+		"Chacha 的游戏攻略与印象记录：整理流程攻略、支线任务、角色培养、装备收集和 BOSS 战资料，帮助你顺利完成每一段冒险。",
 
 	// 站点关键词
 	keywords: [
+		"Chacha",
+		"Chacha的印象空间",
 		"游戏攻略",
 		"流程攻略",
 		"支线任务",
@@ -115,7 +117,7 @@ export const siteConfig: SiteConfig = {
 			value: "material-symbols:sports-esports",
 		},
 		// 导航栏标题
-		title: "游戏攻略",
+		title: "Chacha的印象空间",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
